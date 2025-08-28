@@ -1,0 +1,27 @@
+{
+  "name": "playwright-allure-js",
+  "version": "1.0.0",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "clean": "rimraf allure-results allure-report",
+    "pretest": "npm run clean",
+    "test": "cross-env NODE_OPTIONS=--max-old-space-size=4096 playwright test",
+    "posttest": "node tools/write-env.js",
+
+    "report:allure:generate": "npx allure generate -c -o allure-report",
+    "report:allure:open": "npx allure open allure-report",
+    "report:allure:serve": "npx allure serve allure-results",
+
+    "ci:test": "playwright test --reporter=line,allure-playwright",
+    "ci:report": "node tools/write-env.js && npx allure generate -c -o allure-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.46.0",
+    "allure-commandline": "^2.29.0",
+    "allure-playwright": "^2.14.0",
+    "cross-env": "^7.0.3",
+    "dotenv": "^16.4.5",
+    "rimraf": "^6.0.0"
+  }
+}

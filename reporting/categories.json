@@ -1,0 +1,5 @@
+[
+  { "name": "Product bugs", "matchedStatuses": ["failed"], "messageRegex": ".*BUG:.*" },
+  { "name": "Test defects",  "matchedStatuses": ["broken"] },
+  { "name": "Known flaky",    "matchedStatuses": ["failed"], "traceRegex": ".*FlakyError.*" }
+]
