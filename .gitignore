@@ -3,3 +3,9 @@
 /allure-results
 /node_modules
 /test-results
+
+# Playwright
+node_modules/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
