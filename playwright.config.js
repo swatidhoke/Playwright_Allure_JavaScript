@@ -30,7 +30,7 @@ module.exports = defineConfig({
     }]
   ],
   use: {
-    baseURL: process.env.BASE_URL || 'https://missionPeak.app',
+    baseURL: process.env.BASE_URL || 'https://mptestui.missionpeak.us',
     trace: 'on-first-retry',
     screenshot: 'only-on-failure',
     video: 'retain-on-failure',
