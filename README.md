@@ -496,3 +496,32 @@ allure_report:
 * Wire Allure links to your JIRA/TMS (see `allure.properties`).
 * Add matrix jobs per browser or shard large test sets by directory.
 
+
+
+
+
+## Tutorial References
+
+Enhance your learning with these curated tutorials:
+
+### JavaScript Tutorial Series
+
+* [JavaScript Tutorial Playlist](https://www.youtube.com/watch?v=Gu9KdbpzSvk&list=PL6flErFppaj2TYXXee5Zt_rR_RpOTBfm1&pp=0gcJCXwEOCosWNin)
+
+### TypeScript Tutorial Series
+
+* [TypeScript Tutorial Playlist](https://www.youtube.com/watch?v=GrL86rlRvpA&list=PLFGoYjJG_fqrJhP46MFDAEeLjCwaIcT_t)
+
+### Playwright Testing Tutorial Series
+
+* [Playwright Tutorial Playlist](https://www.youtube.com/watch?v=zF3ftXEj5Aw&list=PL6flErFppaj0iQG2_Dd72Jz0bfrzZwMZH)
+* [Advanced Playwright Tutorial](https://www.youtube.com/watch?v=pq20Gd4LXeI&t=3865s&pp=ygUYamF2YXNjcmlwdCBtdWtlc2ggb3R3YW5p)
+* [Playwright Testing with JavaScript](https://www.youtube.com/watch?v=c3grQLOpRUc&list=PLFGoYjJG_fqrEjt35Z1jxrYk5JXWQa_-D)
+
+### Jenkins Tutorial
+
+* [Jenkins Tutorial](https://www.youtube.com/watch?v=bjelFjcY_o8)
+
+### AWS Cloud Tutorial
+
+* [AWS Cloud Tutorial](https://www.youtube.com/watch?v=yhYIDQT2pVI&list=PLFGoYjJG_fqp0dDqF0Cn2X72dByDChPFC)
